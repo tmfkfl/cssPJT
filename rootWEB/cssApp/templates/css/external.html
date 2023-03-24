@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>외부 스타일 적용</title>
+   <link rel="stylesheet" type="text/css" href="{% static 'css/test_external.css' %}">
+  <style>
+    span {
+        color : pink;
+    }
+
+  </style>
+</head>
+<body>
+       <div>
+         <p>여기는 단락을 의미하는 태그 영역입니다.</p>
+       </div>
+
+       <!-- 인라인 스타일 시트 -->
+       <div style=" color : green ;">
+           공간을 구분하는 태그 영역입니다.
+       </div>
+       <div>
+           <span>한 줄 단락 태그영역입니다.</span>
+       </div>
+</body>
+</html>

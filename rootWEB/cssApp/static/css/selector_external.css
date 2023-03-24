@@ -1,0 +1,38 @@
+
+.header{
+      color : blue;
+      background-color : yellow;
+}
+
+
+.header01{
+      color : red;
+      background-color : green;
+}
+
+h3.header{
+     color : ivory;
+     background-color : pink;
+}
+
+
+#ai {
+    color : silver;
+    background-color : black;
+
+}
+
+
+h7#ai {
+    color : gold;
+    background-color : black;
+
+}
+
+input[type='text'] {
+     background : ivory;
+}
+
+input[type='password'] {
+     background : gray;
+}
